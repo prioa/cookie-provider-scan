@@ -1,0 +1,87 @@
+[
+  {
+    "name": "OneTrust",
+    "attribute": "id",
+    "value": "onetrust-consent-sdk"
+  },
+  {
+    "name": "Didomi",
+    "attribute": "id",
+    "value": "didomi-host"
+    },
+  {
+    "name": "CookieYes",
+    "attribute": "class",
+    "value": "cky-consent-container"
+    },
+  {
+    "name": "Osano",
+    "attribute": "class",
+    "value": "osano-cm-window__dialog"
+    },
+  {
+    "name": "Quantcast",
+    "attribute": "class",
+    "value": "qc-cmp-cleanslate"
+    },
+  {
+    "name": "SecurePrivacy",
+    "attribute": "class",
+    "value": "sp-banner-show"
+  },
+  {
+    "name": "CookieBot",
+    "attribute": "id",
+    "value": "CybotCookiebotDialog"
+  },
+  {
+    "name": "TrustArc",
+    "attribute": "id",
+    "value": "truste-consent-track"
+  },
+  {
+    "name": "usercentrics",
+    "attribute": "id",
+    "value": "usercentrics-root"
+  },
+  {
+    "name": "consentmanager",
+    "attribute": "id",
+    "value": "cmpbox"
+  },
+  {
+    "name": "React Consent",
+    "attribute": "class",
+    "value": "ReactModal__Content"
+  },
+  {
+    "name": "Cookie First",
+    "attribute": "class",
+    "value": "fc-consent-root"
+  },
+  {
+    "name": "Cookie Notice & Compliance for GDPR / CCPA (WP)",
+    "attribute": "class",
+    "value": "cn-set-cookie"
+  },
+  {
+    "name": "Cookiebar extension for Contao Open Source CMS",
+    "attribute": "class",
+    "value": "cookiebar__message"
+  },
+  {
+    "name": "Borlabs Cookies",
+    "attribute": "id",
+    "value": "BorlabsCookieBox"
+  },
+  {
+    "name": "DP Cookie Consent (TYPO3)",
+    "attribute": "id",
+    "value": "cookie-consent-cancel-checkbox"
+  },
+  {
+    "name": "Complianz - GDPR/CCPA Cookie Consent (WP)",
+    "attribute": "class",
+    "value": "cc-checkboxes-container"
+  }
+]
