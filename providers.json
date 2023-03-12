@@ -8,25 +8,25 @@
     "name": "Didomi",
     "attribute": "id",
     "value": "didomi-host"
-    },
+  },
   {
     "name": "CookieYes",
-    "attribute": "class",
+    "attribute": "class_name",
     "value": "cky-consent-container"
     },
   {
     "name": "Osano",
-    "attribute": "class",
+    "attribute": "class_name",
     "value": "osano-cm-window__dialog"
     },
   {
     "name": "Quantcast",
-    "attribute": "class",
+    "attribute": "class_name",
     "value": "qc-cmp-cleanslate"
     },
   {
     "name": "SecurePrivacy",
-    "attribute": "class",
+    "attribute": "class_name",
     "value": "sp-banner-show"
   },
   {
@@ -51,22 +51,22 @@
   },
   {
     "name": "React Consent",
-    "attribute": "class",
+    "attribute": "class_name",
     "value": "ReactModal__Content"
   },
   {
     "name": "Cookie First",
-    "attribute": "class",
+    "attribute": "class_name",
     "value": "fc-consent-root"
   },
   {
     "name": "Cookie Notice & Compliance for GDPR / CCPA (WP)",
-    "attribute": "class",
+    "attribute": "class_name",
     "value": "cn-set-cookie"
   },
   {
     "name": "Cookiebar extension for Contao Open Source CMS",
-    "attribute": "class",
+    "attribute": "class_name",
     "value": "cookiebar__message"
   },
   {
@@ -81,7 +81,7 @@
   },
   {
     "name": "Complianz - GDPR/CCPA Cookie Consent (WP)",
-    "attribute": "class",
+    "attribute": "class_name",
     "value": "cc-checkboxes-container"
   }
 ]
