@@ -34,26 +34,17 @@ for target in targetLines:
     counterComplete += 1
     time.sleep(1)
     for provider in providers:
-        if provider['attribute'] == "id":
-            try:
-                element = driver.find_element(By.ID, provider['value'])
-            except NoSuchElementException:
-                continue
-            except WebDriverException:
-                continue
-        elif provider['attribute'] == "class":
-            try:
-                element = driver.find_element(By.CLASS_NAME, provider['value'])
-            except NoSuchElementException:
-                continue
-            except WebDriverException:
-                continue
-        if element is not None:
-            print(f"Found {target}uses: {provider['name']}")
+        attribute = provider['attribute']
+        value = provider['value']
+        by = getattr(By, attribute.upper())
+
+        try:
+            element = driver.find_element(by, value)
+            print(f"Found {target} uses: {provider['name']}")
             globals()[provider['name']] += 1
             counterFound += 1
-        else:
-            print(target)
+        except (NoSuchElementException, WebDriverException):
+            pass
 
 driver.quit()
 res_f = percent(counterFound, counterComplete)
@@ -61,5 +52,3 @@ print("################################\npages scanned / provider found: ", coun
 for provider in providers:
     res = percent(globals()[provider['name']], counterComplete)
     print(provider['name'], ": ", res, "% (", globals()[provider['name']], ")")
-# onetrust
-# onetrust-group-container
